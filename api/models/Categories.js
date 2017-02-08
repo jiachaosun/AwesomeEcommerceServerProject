@@ -34,6 +34,12 @@ module.exports = {
     icon: {
       type: 'string',
       defaultsTo: 'https://m.360buyimg.com/mobilecms/jfs/t3274/333/5931514372/4075/37f346af/58959da3N38fcdf28.jpg!q70.jpg'
+    },
+
+    // reference to products
+    products: {
+      collection: 'product',
+      via: 'categoryBy'
     }
   }
 };
